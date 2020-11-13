@@ -4,6 +4,7 @@ ENV RUBYGEMS_VERSION=2.7.0
 ENV LC_ALL C.UTF-8	
 ENV LANG en_US.UTF-8	
 ENV LANGUAGE en_US.UTF-8	
+ENV BUNDLER_VERSION=2.1.4
 
 LABEL "com.github.actions.name"="Build & Deploy to GitHub Pages"	
 LABEL "com.github.actions.description"="Builds & deploys Jekyll to gh-pages branch of the same repository. "	
